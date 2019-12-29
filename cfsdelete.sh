@@ -1,4 +1,4 @@
-echo Launching CLI to delete existing AWS LAMP Stack and Instance
+echo Launching CLI to delete existing AWS LAMP Stack.
 aws cloudformation delete-stack --stack-name $1
 echo ""
-echo Deleting $1 Stack ....  Go to AWS Cloudformation console to view progress
+echo Deleting AWS LAMP Stack $1 .... Go to AWS CloudFormation console to view progress
