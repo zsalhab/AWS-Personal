@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: >-
-  AWS CloudFormation LAMP_Single_Instance: Create a LAMP stack
+  AWS CloudFormation LAMP_Single_Instance: Update a LAMP stack
   using a single EC2 instance and a local MySQL database for storage. This
   template demonstrates using the AWS CloudFormation bootstrap scripts to
   install the packages and files necessary to deploy the Apache web server, PHP
@@ -45,7 +45,7 @@ Resources:
                   - |2
                       <head>
                   - |2
-                        <title>AWS CloudFormation LAMP Stack Update2 </title>
+                        <title>AWS CloudFormation LAMP Stack Updated Again! </title>
                   - |2
                         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
                   - |2
@@ -53,7 +53,7 @@ Resources:
                   - |2
                       <body>
                   - |2
-                        <h1>Updated AWS CloudFormation Deployed LAMP Stack again! </h1>
+                        <h1>AWS CloudFormation LAMP Stack Updated Again! </h1>
                   - |2
                         <p/>
                   - |2

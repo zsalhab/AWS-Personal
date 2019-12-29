@@ -8,10 +8,10 @@ Description: >-
  
 Mappings:
   AWSInstanceType2Arch:
-    t2.small:
+    t2.micro:
       Arch: HVM64
   AWSInstanceType2NATArch:
-    t2.small:
+    t2.micro:
       Arch: NATHVM64
   AWSRegionArch2AMI:
     us-west-2:
@@ -45,7 +45,7 @@ Resources:
                   - |2
                       <head>
                   - |2
-                        <title>AWS CloudFormation LAMP Stack Update </title>
+                        <title>AWS CloudFormation LAMP Stack Updated </title>
                   - |2
                         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
                   - |2
@@ -53,7 +53,7 @@ Resources:
                   - |2
                       <body>
                   - |2
-                        <h1>Updated AWS CloudFormation Deployed LAMP Stack </h1>
+                        <h1>AWS CloudFormation LAMP Stack Updated </h1>
                   - |2
                         <p/>
                   - |2
@@ -267,9 +267,9 @@ Resources:
         - !Ref 'AWS::Region'
         - !FindInMap 
           - AWSInstanceType2Arch
-          - t2.small
+          - t2.micro
           - Arch
-      InstanceType: t2.small
+      InstanceType: t2.micro
       SecurityGroups:
         - !Ref WebServerSecurityGroup
       KeyName: default-pair
